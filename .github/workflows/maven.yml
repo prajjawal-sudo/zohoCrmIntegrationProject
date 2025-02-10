@@ -21,4 +21,4 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Execute test
-      run: mvn clean test -Dsuite=parallel-execution -x
+      run: mvn clean test -Dsuite = parallel-execution -x
