@@ -65,7 +65,7 @@
                     <configuration>
                         <suiteXmlFiles>
                             <suiteXmlFile>
-                                ${parallel-execution}.xml
+                                {parallel-execution}.xml
                             </suiteXmlFile>
                         </suiteXmlFiles>
                     </configuration>
