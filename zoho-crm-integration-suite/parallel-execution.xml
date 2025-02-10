@@ -1,0 +1,13 @@
+<suite name="zoho-crm-integration-suite" verbose="1" parallel = "methods" thread-count = "4" >
+    <test name="Automation">
+        <classes>
+            <class name="com.ui.tests.LoginTest" />
+            <class name="com.ui.tests.CreateLeadTest" />
+            <class name="com.ui.tests.EditLeadTest" />
+            <class name="com.ui.tests.FilterLeadTest" />
+            <class name="com.ui.tests.DeleteLeadTest" />
+            <class name="com.ui.tests.CustomizeLeadTest" />
+            <class name="com.ui.tests.CustomizeLeadTest" />
+        </classes>
+    </test>
+</suite>
